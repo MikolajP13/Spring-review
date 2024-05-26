@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class SportConfig {
 
+//    add custom bean id
+//    @Bean("testId")
     @Bean
     public Coach swimCoach() {
         return new SwimCoach();
